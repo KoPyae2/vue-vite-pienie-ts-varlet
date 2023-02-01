@@ -1,0 +1,74 @@
+@import "./modules/_utils.scss";
+@import "./modules/_border.scss";
+@import "./modules/func.scss";
+@import "./modules/transition.scss";
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root {
+   
+}
+
+
+html {
+    @include root-font-size();
+    // scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Rubik',sans-serif;
+    --van-tab-font-size: px2rem(32);
+    --van-tab-line-height: px2rem(32);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+
+
+*::-webkit-scrollbar-track-piece {
+    background-color: #f8f8f8;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.right {
+    text-align: right;
+}
+
+.flex {
+    flex: 1;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}

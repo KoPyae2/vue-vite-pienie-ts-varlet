@@ -1,0 +1,10 @@
+$test: 10px;
+
+[theme="light"] {
+  --app-background-color: rgba(31, 33, 37, 1);
+  
+}
+
+[theme="dark"] {
+  --app-background-color: rgba(31, 33, 37, 1);
+}

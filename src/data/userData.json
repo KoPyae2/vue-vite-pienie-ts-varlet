@@ -1,0 +1,37 @@
+[
+    {
+        "name":"Chico",
+        "age":23,
+        "gender":1 
+    },
+    {
+        "name":"Ming hua",
+        "age":23,
+        "gender":1
+    },
+    {
+        "name":"Nanda",
+        "age":22,
+        "gender":1
+    },
+    {
+        "name":"Close",
+        "age":22,
+        "gender":1
+    },
+    {
+        "name":"Jack",
+        "age":28,
+        "gender":1
+    },
+    {
+        "name":"Ohara",
+        "age":22,
+        "gender":2
+    },
+    {
+        "name":"Emily",
+        "age":21,
+        "gender":2
+    }
+]
